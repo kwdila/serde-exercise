@@ -57,6 +57,15 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "78ca9ab1a0babb1e7d5695e3530886289c18cf2f87ec19a575a0abdce112e3a3"
 
 [[package]]
+name = "message-program"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "bytemuck",
+ "num_enum",
+]
+
+[[package]]
 name = "num_enum"
 version = "0.7.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -105,12 +114,12 @@ dependencies = [
 ]
 
 [[package]]
-name = "serde-exercise"
+name = "solution"
 version = "0.1.0"
 dependencies = [
  "anyhow",
  "bytemuck",
- "num_enum",
+ "message-program",
 ]
 
 [[package]]

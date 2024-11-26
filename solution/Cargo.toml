@@ -1,0 +1,9 @@
+[package]
+name = "solution"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.93"
+bytemuck = "1.20.0"
+message-program = { path = "../message-program" }
